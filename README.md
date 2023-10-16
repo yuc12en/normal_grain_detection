@@ -16,7 +16,7 @@ example_data 为案例数据所在路径， 是提供给main.py 的参数
 
 输出 output.xlsx， 如图
 
-![image-20231016231951652](/home/yuchen/.config/Typora/typora-user-images/image-20231016231951652.png)
+![image-20231016231951652](./show_xlsx.png)
 
 ## 说明
 
