@@ -3,5 +3,7 @@ include/
 lib/
 etc/
 share/
+src/*
 lib64
 pyvenv.cfg
+
