@@ -1,4 +1,4 @@
-import utilities
+from utilities import *
 
 def main():
     file = os.listdir(sys.argv[1])
@@ -19,7 +19,8 @@ def main():
         global_aves.append(ave_area)
 
 
-    data = pd.DataFrame(global_nums, global_aves)
+    data = pd.DataFrame(np.array([global_nums, global_aves]).T, columns = ['num', 'ave_area'])
+    print(data.columns)
     data.to_excel('output.xlsx')
     
 

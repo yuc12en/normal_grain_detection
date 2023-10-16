@@ -4,8 +4,6 @@ import numpy as np
 import sys
 import os
 import re
-
-
 def read_from_file(file_name):
     if file_name[-4:] == '.txt':
         picture = np.loadtxt(file_name)
